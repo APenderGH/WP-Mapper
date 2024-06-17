@@ -3,6 +3,7 @@ import sys
 import argparse
 import json
 from termcolor import colored
+requests.packages.urllib3.disable_warnings()
 
 API_URI = '/wp-json/wp/v2'
 MEDIA_URI = '/media'
